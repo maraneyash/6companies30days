@@ -26,7 +26,6 @@ bool dfs(vector<vector<char>> &board, string word, int i, int j, int pos)
 }
 bool isWordExist(vector<vector<char>> &board, string word)
 {
-    // Code here
     int m = board.size();
     int n = board[0].size();
     for (int i = 0; i < m; i++)
